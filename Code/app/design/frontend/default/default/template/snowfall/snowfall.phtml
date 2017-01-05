@@ -1,0 +1,21 @@
+<?php
+/**
+ * Integrate Snowfall
+ *
+ * @category   Snowfall
+ * @package    Learn_Snowfall
+ * @author     Vijayakumar
+ *
+ */
+
+?>
+
+<script type="text/javascript">
+	var Snow = new Snowfall(<?php echo $this->getSnowfallJsonOptions(); ?>);
+	Snow.start();
+	var font_name = "<?php echo $this->getSnowfallFont(); ?>";
+	var class_name = (font_name == 2) ? " heartsfall " : " snowfall ";
+	document.observe("dom:loaded", function() {
+		$('snowfall').addClassName(class_name);
+	});
+</script>

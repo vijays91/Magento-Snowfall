@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<layout version="0.1.0">
+    <default>
+        <reference name="head">
+            <!-- Added the snowfall js -->
+            <action method="addItem" ifconfig="snowfall/settings/snowfall_active">
+                <type>skin_js</type>
+                <name>js/snowfall/snowfall.js</name>
+            </action>
+            <!-- Added the snowfall css -->
+            <action method="addItem" ifconfig="snowfall/settings/snowfall_active">
+                <type>skin_css</type>
+                <name>css/snowfall/snowfall.css</name>
+            </action>
+
+            <!-- block for snowfall -->
+            <block type="snowfall/snowfall" name="snowfall" as="snowfall">
+                <action method="setTemplate" ifconfig="snowfall/settings/snowfall_active">
+                    <template>snowfall/snowfall.phtml</template>
+                </action>
+            </block>
+        </reference>
+    </default>
+</layout>

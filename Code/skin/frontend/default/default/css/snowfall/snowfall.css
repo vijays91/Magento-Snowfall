@@ -1,0 +1,45 @@
+/*- Snowfall Hearts -*/
+
+
+
+@font-face {
+    font-family:'mwheart';
+    src: url('mwheart.eot');
+    src: url('mwheart.eot?#iefix') format('embedded-opentype'),
+         url('mwheart.woff') format('woff'),
+         url('mwheart.ttf') format('truetype'),
+         url('mwheart.svg#mwheart') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+.heartsfall {font-family:mwheart !important;}
+
+/*
+@font-face {
+    font-family:'hearts-symbol';
+    src: url('hearts-symbol.eot');
+    src: url('hearts-symbol.eot?#iefix') format('embedded-opentype'),
+         url('hearts-symbol.woff') format('woff'),
+         url('hearts-symbol.ttf') format('truetype'),
+         url('hearts-symbol.svg#hearts-symbol') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.heartsfall { font-family:hearts-symbol !important;}
+*/
+
+/*- Snowfall -*/
+@font-face {
+	font-family: 'wwflakesregular';
+	src:url('wwflakes.eot'),
+		url('wwflakes.eot?#iefix') format('embedded-opentype'),
+		url('wwflakes.woff') format('woff'),
+		url('wwflakes.ttf') format('truetype'),
+		url('wwflakes.svg#wwflakesregular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+.snowfall { font-family: wwflakesregular !important;}
+/*#snowfall { font-family: wwflakesregular !important;}*/
